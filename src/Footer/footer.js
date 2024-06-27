@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css'; 
-// import { FaStripe } from 'react-icons/fa';
+
 import { FaStripe } from "react-icons/fa";
 import { RiVisaLine } from "react-icons/ri";
 import { RiMastercardFill } from "react-icons/ri";

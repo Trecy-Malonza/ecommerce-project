@@ -30,18 +30,18 @@
   .product-price {
     font-size: 1.2em;
     font-weight: bold;
-    color: #004d40; /* Primary color */
+    color: #004d40; 
   }
   
   .product-description {
     margin-top: 8px;
-    max-height: 80px; /* Limiting to 4 lines of text */
+    max-height: 80px; 
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.2;
   }
   .add-to-cart {
-    background-color: #004d40; /* Primary color */
+    background-color: #004d40;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -51,6 +51,6 @@
   }
   
   .add-to-cart-btn:hover {
-    background-color: #00332c; /* Darker shade of primary color */
+    background-color: #00332c;
   }
   

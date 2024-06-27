@@ -7,17 +7,18 @@
   }
   
   .footer-top {
-    display: grid;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
     padding-bottom:5px -80x;
-    margin-left: 30%;
+    margin-left: 25%;
   }
   
   .footer-logo img{
     width: 100px;
     height: auto;
-    margin-left: -70px;
+    margin-left: 0px;
+    padding-right: 50px;
   }
   
   .footer-logo p {
@@ -25,7 +26,7 @@
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.5;
-    margin-left: 80px;
+    margin-left: 30px;
   } 
   
   
@@ -85,14 +86,14 @@
   } */
    .footer-columns{
     display: flex;
-    margin-left: 270px;
+    margin-left: 10px;
     margin-bottom: 50px;
     
    }
   
   .footer-column {
     flex: 1;
-    margin-right: 5px;
+   margin-right: 5px;
   }
   
   .footer-column h4 {

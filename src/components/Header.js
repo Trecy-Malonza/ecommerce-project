@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaSearch, FaUser, FaShoppingCart } from 'react-icons/fa';
-import logoImage from '../Images/logo.png'; // Adjust the path to your logo image
+import logoImage from '../Images/logo.png'; 
 import './Header.css'; 
 
 const Header = () => (
@@ -21,12 +21,16 @@ const Header = () => (
       </button>
     </div>
     <nav className="nav">
+      <div className='icons'>
       <a className="icon-link" href="#">
         <FaUser /> Account
       </a>
+      </div>
+      <div className='cart'>
       <a className="icon-link" href="#">
         <FaShoppingCart /> Cart
       </a>
+      </div>
     </nav>
   </header>
 );

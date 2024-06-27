@@ -1,4 +1,5 @@
-/* Continue from the provided CSS */
+
+
 
 .category-tabs {
     display: flex;
@@ -16,7 +17,7 @@
   }
   
   .category-tab.active {
-    background-color: #004d40; /* Primary color */
+    background-color: #004d40; 
     color: white;
   }
   
