@@ -1,0 +1,22 @@
+/* Continue from the provided CSS */
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category-tab {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .category-tab.active {
+    background-color: #004d40; /* Primary color */
+    color: white;
+  }
+  

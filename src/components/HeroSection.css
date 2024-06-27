@@ -1,0 +1,43 @@
+/* HeroWrapper styles */
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #eaf4ff;
+  }
+  
+  /* HeroText styles */
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 3em;
+    color: #006400;
+  }
+  
+  /* Subtitle styles */
+  .subtitle {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #006400;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* HeroImage styles */
+  .hero-image {
+    max-width: 500px;
+    height: auto;
+  }
+  
